@@ -1006,7 +1006,7 @@ def skin_check(set_n = 0):
         curs = conn.cursor()
 
         # 개편 필요?
-        skin_list = load_skin('ringo', 1)
+        skin_list = load_skin('liberty', 1)
         skin = skin_list[0]
         ip = ip_check()
         

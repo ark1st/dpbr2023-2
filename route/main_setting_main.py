@@ -192,7 +192,7 @@ def main_setting_main(db_set):
                         
                         <span>''' + load_lang('wiki_skin') + '''</span>
                         <hr class="main_hr">
-                        <select name="skin">''' + load_skin(d_list[5] if d_list[5] != '' else 'ringo') + '''</select>
+                        <select name="skin">''' + load_skin(d_list[5] if d_list[5] != '' else 'liberty') + '''</select>
 
                         <h2>''' + load_lang('render_set') + '''</h2>
                         
